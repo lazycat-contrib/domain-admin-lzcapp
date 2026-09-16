@@ -1,0 +1,18 @@
+package: cloud.lzaycat.app.domain-admin
+version: 1.6.65
+name: Domain Admin
+description: "域名和SSL证书监测平台"
+min_os_version: "1.5.0"
+homepage: https://github.com/dromara/domain-admin
+author: dromara
+locales:
+  zh:
+    description: "域名和SSL证书监测平台"
+    name: Domain Admin
+  en:
+    description: "Domain and SSL certificate monitoring platform"
+    name: Domain Admin
+unsupported_platforms:
+  - ios
+  - android
+  - tvos

@@ -1,0 +1,18 @@
+application:
+  subdomain: domain-admin
+  background_task: true
+  multi_instance: false
+  public_path:
+    - /
+
+  upstreams:
+    - location: /
+      backend: http://domain-admin:8000/
+
+services:
+  domain-admin:
+    # upstream: mouday/domain-admin:v1.6.78
+    image: docker.1ms.run/mouday/domain-admin:v1.6.78
+    binds:
+      - /lzcapp/var/database:/app/database
+      - /lzcapp/var/logs:/app/logs
