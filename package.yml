@@ -1,5 +1,5 @@
 package: cloud.lzaycat.app.domain-admin
-version: 1.6.65
+version: 1.6.78
 name: Domain Admin
 description: "域名和SSL证书监测平台"
 min_os_version: "1.5.0"
