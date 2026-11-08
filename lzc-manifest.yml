@@ -9,8 +9,8 @@ application:
       backend: http://domain-admin:8000/
 services:
   domain-admin:
-    # upstream: mouday/domain-admin:v1.6.79
-    image: docker.1ms.run/mouday/domain-admin:v1.6.79
+    # upstream: mouday/domain-admin:v1.6.80
+    image: docker.1ms.run/mouday/domain-admin:v1.6.80
     binds:
       - /lzcapp/var/database:/app/database
       - /lzcapp/var/logs:/app/logs
